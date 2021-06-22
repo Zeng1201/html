@@ -1,0 +1,26 @@
+<html>
+    <head><table>註冊</table></head>
+    <body>
+        <form method="POST" action="regist.php">
+            姓名：<input type=text name=id><br>
+            密碼：<input type=password name=pwd><br>
+            性別:<input type="radio" name=sex value=m >男
+            <input type="radio" name=sex value=f checked>女
+            <input type="radio" name=sex value=s >多元<br>
+            興趣:<input type="checkbox" name=interest value=video >看影片
+            <input type="checkbox" name=interest value=read>閱讀
+            <input type="checkbox" name=interest value=anime checked>看動畫<br>
+            居住地:<select name=county>
+                <option value="Taoyuan">桃園</option>
+                <option value="Hsinchu">新竹</option>
+                <option value="Miaoli">苗栗</option>
+                <option value="other">其他</option>
+            </select><br>
+            自傳:<br><textarea name="autobiography" rows="18" cols="40">
+                請填入自傳....
+            </textarea>
+            <p></p>
+            <input type="submit" value="註冊">
+            <input type="reset" value="清除">
+    </body>
+</html>
